@@ -12,7 +12,7 @@ const Stack = createStackNavigator();
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Chatbot-screen">
+      <Stack.Navigator initialRouteName="Auth-screen">
         <Stack.Screen name="Auth-screen" component={AuthScreen} />
         <Stack.Screen name="Chatbot-screen" component={ChatbotScreen} />
       </Stack.Navigator>
