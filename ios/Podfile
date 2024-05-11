@@ -36,5 +36,6 @@ target 'ChatBot_UI' do
       :mac_catalyst_enabled => false,
       # :ccache_enabled => true
     )
+    
   end
 end
