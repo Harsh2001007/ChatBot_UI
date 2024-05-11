@@ -14,7 +14,7 @@ export default function AuthScreen({navigation}) {
   };
 
   const correctOtpredirection = () => {
-    if (otpFilled == '12345') {
+    if (otpFilled == '20012') {
       navigation.navigate('Chatbot-screen');
       setCorrectOtp(true);
     } else {

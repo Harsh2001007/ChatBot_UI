@@ -14,7 +14,13 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Auth-screen">
         <Stack.Screen name="Auth-screen" component={AuthScreen} />
-        <Stack.Screen name="Chatbot-screen" component={ChatbotScreen} />
+        <Stack.Screen
+          name="Chatbot-screen"
+          component={ChatbotScreen}
+          options={{
+            headerBackTitleVisible: false,
+          }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
