@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
     height: '100%',
   },
   chatInputContainer: {
-    borderColor: 'grey',
+    borderColor: 'black',
     flexDirection: 'row',
     width: '75%',
     height: '100%',
