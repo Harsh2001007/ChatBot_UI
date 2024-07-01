@@ -42,7 +42,7 @@ export default function AuthScreen({navigation}) {
               pinCodeTextStyle: styles.pinCodeText,
             }}
           />
-          {!correctOtp && <Text>wrong Code</Text>}
+          {!correctOtp && <Text>wrong Code Try again</Text>}
           <Pressable
             style={({pressed}) => pressed && styles.clickedStyle}
             onPress={correctOtpredirection}>
